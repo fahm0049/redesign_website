@@ -1,0 +1,126 @@
+/* //index page// */
+body {
+  display: grid;
+  background-color: #fffded;
+}
+.logo {
+  display: flex;
+  text-decoration: none;
+  color: black;
+  font-family: 'Abril Fatface', cursive;
+}
+.logo1 {
+    text-decoration: none;
+    color: black;
+    font-family: 'Abril Fatface', cursive;
+}
+.pr1, .pr2 {
+  display: grid;
+  align-items: center;
+ 
+}
+.pr2 {
+    padding-left: 30px;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: 'Abril Fatface', sans-serif;
+}
+.top {
+  margin-left: 30vw;
+}
+.header_text {
+  text-align: center;
+  font-family: 'Abril Fatface', cursive;
+
+}
+button {
+  background-color: #05029d;
+  color: white;
+  border-radius: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 45vw;
+  font-size: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+.pr {
+  padding-top: 20px;
+}
+.pr1 {
+    padding-left: 80%;
+}
+.section2,
+.section3 {
+  display: flex;
+  justify-content: center;
+  gap: 15vw;
+}
+.section3 {
+  padding-top: 20px;
+}
+
+.wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #a9bdc6;
+  margin-top: 50px;
+  gap: 5%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+}
+
+/* //Ticket page// */
+
+.billeter1 {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding-top: 10vw;
+    
+}
+.billeter2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding-top: 2vw;
+
+}
+
+
+.h3 {
+    text-align: center;
+}
+
+
+/* //Performance page// */
+
+.section_pr {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  margin-left: 10vw;
+  margin-right: 5vw;
+  gap: 10vw;
+  padding-top: 4vw;
+}
+.performancepage {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 10vw;
+    padding-top: 5vw;
+}
+.buy {
+    padding-left: 9vw;
+   
+}
